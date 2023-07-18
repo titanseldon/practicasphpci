@@ -6,6 +6,10 @@
 !*/cache/index.html
 !*/cache/.htaccess
 
+# Traidos de la versión de GitHub
+composer.lock
+.idea/*
+
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
