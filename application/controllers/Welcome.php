@@ -22,4 +22,11 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+
+	public function animales()
+	{
+		$datos['titulo']		= "Lista no ordenada con PHP";
+		$datos['listaAnimales']	= array('Tigre','Oso','Piojo','Mamut','Ornitorrinco');
+		$this->load->view('animales', $datos);
+	}
 }
